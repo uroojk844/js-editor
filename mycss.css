@@ -1,0 +1,25 @@
+*{
+    font-family: 'Bahnschrift light';
+}
+
+i{width: 100%;}
+
+#input, #output{
+    width: 100%;
+    border: 0;
+    resize: none;
+    height: 85vh;
+    margin-top: 16px;
+    margin-bottom: 8px;
+}
+
+#input{
+    padding: 10px;
+}
+
+#sidebar{
+    position: absolute;
+    top:0;
+    height: 100%;
+}
+

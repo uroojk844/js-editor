@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Web Editor</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="w3.css">
+    <link rel="stylesheet" href="mycss.css">
+</head>
+<body id="body">
+<nav id="nav" class="w3-bar w3-pink w3-padding w3-center w3-xlarge w3-card-4">Web Editor</nav>
+
+    <div class="w3-card-4 w3-center" id="sidebar" style="width: 70px;">
+        <img src="white.svg" style="width: 40px;margin: 6px;">
+        <i id="one" title="Reset" class="fa fa-gear fa-2x w3-button w3-padding-16 w3-text-pink" onclick="reset()"></i>
+        <i id="two" title="Dark mode" class="fa fa-clone fa-2x w3-button w3-padding-16 w3-text-pink" onclick="chnage()"></i>
+        <a href="https://www.facebook.com/khancodes">
+            <i id="three" title="Facebook Page" class="fa fa-facebook-square fa-2x w3-button w3-padding-16 w3-text-pink"
+               style="position: absolute;bottom: 186px;left:0"></i></a>
+        <a href="https://www.instagram.com/code_and_key/">
+            <i id="four" title="Instagram Page" class="fa fa-instagram fa-2x w3-button w3-padding-16 w3-text-pink"
+               style="position: absolute;bottom: 124px;left:0"></i></a>
+        <a href="http://codeandkey.com">
+            <i id="five" title="Website" class="fa fa-globe fa-2x w3-button w3-padding-16 w3-text-pink"
+               style="position: absolute;bottom: 62px;left:0"></i></a>
+        <i id="six" title="Close" class="fa fa-power-off fa-2x w3-button w3-padding-16 w3-text-pink"
+           style="position: absolute;bottom: 0;left:0" onclick="window.close()"></i>
+    </div>
+
+    <div id="main" class="w3-row" style="margin-left: 70px;">
+            <div class="w3-half w3-padding">
+                <textarea id="input" class="w3-round w3-card-4" oninput="run()"><!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>title</title>
+</head>
+<body>
+
+</body>
+</html></textarea>
+            </div>
+
+        <div class="w3-half w3-padding">
+            <div id="output" class="w3-round w3-card-4"></div>
+        </div>
+    </div>
+
+<script src="myjs.js"></script>
+
+</body>
+</html>
